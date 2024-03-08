@@ -1,0 +1,26 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+
